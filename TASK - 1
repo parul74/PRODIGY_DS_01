@@ -1,0 +1,13 @@
+import matplotlib.pyplot as bar
+
+professions = ['Engineers', 'Doctors', 'Defence', 'Private Sector', 'Business']
+population = [19000000, 9000000, 20000000, 6000000, 8000000]
+
+bar.figure(figsize=(10, 6))
+bar.bar(professions, population, color=['pink', 'green', 'brown', 'purple', 'black'])
+
+bar.title('Distribution of Population in India among Different Professions')
+bar.xlabel('Professions')
+bar.ylabel('Population')
+
+bar.show()
